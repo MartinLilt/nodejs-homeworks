@@ -1,0 +1,26 @@
+[
+    {
+        "command": "Martin",
+        "age": "22"
+    },
+    {
+        "command": "Andrei",
+        "age": "45"
+    },
+    {
+        "command": "Vlad",
+        "age": "90"
+    },
+    {
+        "command": "Nikita",
+        "age": "24"
+    },
+    {
+        "command": "Kirill",
+        "age": "10"
+    },
+    {
+        "command": "Rabbit",
+        "age": "24"
+    }
+]
