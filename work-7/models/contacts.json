@@ -1,0 +1,26 @@
+[
+  {
+    "id": "a72ee664-780c-4303-8888-b351fb50cf6e",
+    "name": "John King",
+    "email": "john.king@gmail.com",
+    "phone": "(542) 777-7038"
+  },
+  {
+    "id": "48ec3935-d46d-4611-a6ef-60ddc6843bbe",
+    "name": "Emma Worker",
+    "email": "emmassa@gmail.com",
+    "phone": "(542) 111-7038"
+  },
+  {
+    "id": "3a1409fc-1d06-4921-b87e-7c505265f7d6",
+    "name": "Max Tooks",
+    "email": "maskas@gmail.com",
+    "phone": "(542) 222-7038"
+  },
+  {
+    "id": "237e70fc-523e-4c4b-9932-60073d684111",
+    "name": "Tiny Maks",
+    "email": "lololosh@gmail.com",
+    "phone": "(542) 222-7038"
+  }
+]
