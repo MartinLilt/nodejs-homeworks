@@ -1,8 +1,6 @@
 // 3Oxti67oogYOsbDS
 const mongoose = require('mongoose');
-
-const DB_HOST =
-  'mongodb+srv://Martin:3Oxti67oogYOsbDS@cluster0.pslh9.mongodb.net/online_shop?retryWrites=true&w=majority';
+const { DB_HOST } = require('./config');
 
 const express = require('express');
 const logger = require('morgan');
