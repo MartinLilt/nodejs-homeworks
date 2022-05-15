@@ -44,9 +44,14 @@ const productSchema = Schema(
 const joiSchema = Joi.object({
   name: Joi.string().required(),
   price: Joi.number().min(0.01).required(),
+  location: Joi.string(),
   active: Joi.bool(),
-  status: Joi.string().required(),
+  status: Joi.string().valid('basic', 'sale', 'stock'),
   code: Joi.string().pattern(codeRegex),
+});
+
+const statusJoiSchema = Joi.object({
+  status: Joi.string().valid('basic', 'sale', 'stock').required(),
 });
 
 const Product = model('product', productSchema);
@@ -54,4 +59,5 @@ const Product = model('product', productSchema);
 module.exports = {
   Product,
   joiSchema,
+  statusJoiSchema,
 };

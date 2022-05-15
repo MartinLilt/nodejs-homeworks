@@ -1,7 +1,7 @@
-const { Product } = require('../../models');
+const { Product } = require('../../models/product');
 
 const add = async (req, res) => {
-  const result = await Product.create(req.params);
+  const result = await Product.create(req.body);
   res.status(201).json({
     status: 'success',
     code: 201,
